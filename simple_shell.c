@@ -136,6 +136,7 @@ int main(int argc, char *argv[])
     {
         printf("Ana Gahz Ya Basha $ ");
         fgets(command, 100, stdin);
+        // printf("%s\n", command);
         int return_value = fork();
         if (return_value < 0)
             printf("Faild\n");
